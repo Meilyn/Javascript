@@ -6,6 +6,8 @@ Définir une variable et l'afficher dans une boîte de dialogue.
 #### Exercice 2 :
 Définir trois variables : nom, prenom et ville. Les afficher comme sur l'image ci-dessous.
 
+![imagen](Exercice_2.png)
+
 #### Exercice 3 :
 Afficher une boîte de dialogue permettant de saisir son prénom. Afficher dans une boîte de dialogue "Bonjour, " suivi du prénom saisi.
 
