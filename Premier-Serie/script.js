@@ -34,3 +34,22 @@ let num1 = prompt("Entrez un numero decimal");
 	result = parseInt(num1) * parseInt(num2);
 	alert(result);	
 	*/
+
+//Exercice 6 
+/*
+let pointure = prompt("Entrez son pointure");
+naissance = prompt("Entrez son année de naissance");
+result = alert(((((pointure * 2) + 5) *50) - naissance) + 1766);
+*/ 
+
+// Exercice 7
+/*
+let age = prompt("Entrez votre âge");
+if (age > 18){
+	alert("Vous êtes majeur");
+} 
+else {
+	alert("Vous êtes mineur");
+}
+*/
+
