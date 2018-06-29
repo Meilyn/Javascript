@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Exercice 3</title>
+</head>
+<body>
+  <form>
+    <label for="nom">Votre nom  : </label><input type="text" name="nom" value="" id="nom" onfocus="RecuFocus()"/>
+  </form>
+  <p>Ecrivez pour result</p>
+  <p id="demo">Resultat ici</p>
+
+<script>
+function RecuFocus() {
+    var x = document.getElementById("nom").value;
+    document.getElementById("demo").innerHTML = x;
+}
+</script>
+</body>
+</html>
