@@ -51,19 +51,20 @@
           $(".vert").css("font-weight","bold");
       });
         $("#souligner").click(function(){
-          $(".rouge").css("text-decoration", "underline","color", "black");
+          $(".rouge").css("text-decoration", "underline");
       });
         $("#survol").mouseenter(function(){
           $("#myLogo").attr("src","gally-logo.png");
         });
         $("#afficher").mouseenter(function(){
-          $("href").tooltip("a");  
+          $(this).tooltip("title");  
         });
-        
-        /* Afficher l'URL des liens dans une infobulle lors du survol des liens */
-        
-        /* ajouter "Chapitre 1 :" devant le 1er titre h2<br>et "Chapitre 2 :" devant le 2ème titre h2 */
-        
+        $("#bam-bam").click(function(){
+          $("h2:first","#contenu").prepend("<h3>Chapitre 1 :</h3>");
+        });
+        $("#bam-bam").click(function(){
+          $("h2:last","#contenu").prepend("<h3>Chapitre 2 :</h3>");
+        });
       });
     </script>
   </body>
