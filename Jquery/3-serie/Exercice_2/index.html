@@ -8,15 +8,20 @@
 </head>
 <body>
   <form>
-    <button type="button" name="button" id="clique-moi" >Count!</button>
+    <button type="button" name="button" id="_plus" >Count + !</button>
+    <button type="button" name="button" id="_moins">Count - !</button>
   </form>
   <h3></h3>
   <script>
     $(document).ready(function(){
   let compteur = 0;
-    $("#clique-moi").click(function(){
+    $("#_plus").click(function(){
       compteur = compteur + 1;
         $("h3").text("Le nombre de cliques est de " + compteur);
+    });
+    $("#_moins").click(function(){
+      compteur = compteur - 1;
+      $("h3").text("Le nombre de cliques est de " + compteur);
     });
 });
 
