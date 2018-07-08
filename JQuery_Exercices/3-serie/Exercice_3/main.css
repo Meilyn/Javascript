@@ -1,0 +1,13 @@
+button {
+	background-color: #29164d;
+	color: white;	
+	padding: 20px;
+	font-family: cambria;
+	font-size: 20px;
+	border-radius: 45px;
+
+}
+button:hover {
+	background-color: tomato;
+}
+
