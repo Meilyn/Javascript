@@ -4,25 +4,30 @@
   <meta charset="utf-8">
   <script src="jquery-2.2.4.js"></script>
   <link rel="stylesheet" href="main.css">
-  <title>Exercice 2</title>
+  <title>Exercice 3</title>
 </head>
 <body>
   <form>
-    <button type="button" name="button" id="_plus" >Count + !</button>
-    <button type="button" name="button" id="_moins">Count - !</button>
+    <h4>But: trouver un nombre entre 0 et 100</h4>
+    <input type="text" value="ici" id="intNumb">
+    <button type="button" name="button" id="trouver" >Trouver !</button>
+    
   </form>
   <h3></h3>
   <script>
     $(document).ready(function(){
-  let compteur = 0;
-    $("#_plus").click(function(){
-      compteur = compteur + 1;
-        $("h3").text("Le nombre de cliques est de " + compteur);
+  let x = 0;
+      y = 67;
+      z ="";
+    $("#trouver").click(function(){
+      x == y;
+        $("h3").text("correct");
     });
-    $("#_moins").click(function(){
-      compteur = compteur - 1;
-      $("h3").text("Le nombre de cliques est de " + compteur);
+    $("#trouver").click(function(){
+      x = y;
+    $("h3").text("plus")  
     });
+    
 });
 
   </script>
