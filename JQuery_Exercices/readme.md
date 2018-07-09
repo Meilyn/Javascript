@@ -6,7 +6,7 @@ par **Meilyn ANDRADE** at BeCode
 
 ### The Write Less, Do More, JavaScript Library.
 
-### Objectifs d'apprentissage
+###Objectifs d'apprentissage
 
 * savoir intégrer une librairie tierce, telle que jQuery, Zepto... comme dépendance à son propre code;
 * comprendre et utiliser la documentation fournie avec cette librairie pour atteindre le résultat attendu.
