@@ -1,5 +1,1 @@
-// Pair et Impair
-let result;
-for (let i = 0; i < 20; i = i % 2 ){
-	console.log(i)
-}
+let addition = [1 , 2 , 3 , 4 , 5 , 6 , 7 ,8, 9];
